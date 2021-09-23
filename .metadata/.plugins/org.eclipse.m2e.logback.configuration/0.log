@@ -1067,3 +1067,45 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2021-09-23 10:28:05,822 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2021-09-23 10:28:05,823 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-09-23 10:28:05,824 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
+2021-09-23 10:40:37,407 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:40:37,414 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 10:40:37,417 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:40:37,418 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
+2021-09-23 10:41:03,131 [Worker-42: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:41:03,132 [Worker-42: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 10:41:03,134 [Worker-42: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:41:03,135 [Worker-42: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
+2021-09-23 10:41:24,478 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-23 10:41:36,875 [Worker-5: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:41:36,878 [Worker-5: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 10:41:36,885 [Worker-5: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:41:36,885 [Worker-5: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
+2021-09-23 10:45:22,207 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:45:22,209 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 10:45:22,211 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:45:22,211 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
+2021-09-23 10:45:49,303 [Worker-22: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:45:49,304 [Worker-22: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 10:45:49,308 [Worker-22: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:45:49,308 [Worker-22: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
+2021-09-23 10:46:31,024 [Worker-12: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-09-23 10:46:39,116 [Worker-19: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:46:39,120 [Worker-19: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 10:46:39,127 [Worker-19: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:46:39,127 [Worker-19: Launching Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
+2021-09-23 10:50:17,840 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:50:17,847 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 10:50:17,848 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:50:17,848 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
+2021-09-23 10:54:31,753 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:54:31,754 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 10:54:31,756 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:54:31,756 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
+2021-09-23 10:56:59,214 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:56:59,215 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 10:56:59,216 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 10:56:59,216 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
+2021-09-23 11:02:55,143 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 11:02:55,144 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-23 11:02:55,145 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-23 11:02:55,145 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
