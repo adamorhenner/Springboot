@@ -1179,3 +1179,11 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2021-09-24 11:50:13,402 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2021-09-24 11:50:13,406 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-09-24 11:50:13,407 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\src\test\resources
+2021-09-27 08:30:37,653 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-09-27 08:40:44,844 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.hackerrank.projects:springboot-rest-api-sample:1.0.0-SNAPSHOT @ C:\Users\adamor.henner\Desenvolvimento\Springboot\springboot-rest-api-sample\pom.xml.
+2021-09-27 08:40:45,506 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 08:40:45,511 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-27 08:40:45,520 [Worker-4: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2021-09-27 08:44:52,065 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 08:44:52,067 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-27 08:44:52,068 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
