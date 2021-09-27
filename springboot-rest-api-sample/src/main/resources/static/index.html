@@ -32,8 +32,43 @@
 </form>
 <button type="button" class="btn btn-primary" onclick="salvarUsuario()">Salvar</button>
 <button type="button" class="btn btn-secondary" onclick="document.getElementById('formCadastroUser').reset();">Novo</button>
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalPesquisarUser">Pesquisar</button>
 
 
+<div class="modal fade" id="modalPesquisarUser" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pesquisa de usuário</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="nameBusca" class="col-form-label">Informe o nome:</label>
+            <input type="text" class="form-control" id="nameBusca">
+          </div>
+          <button type="button" class="btn btn-success" onclick="pesquisarUser();">Buscar</button>
+        </form>
+					<table class="table" id="tabelaresultados">
+						<thead>
+							<tr>
+								<th scope="col">ID</th>
+								<th scope="col">Nome</th>
+								<th scope="col">Editar</th>
+							</tr>
+						</thead>
+						<tbody>
+
+						</tbody>
+					</table>
+				</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
@@ -41,6 +76,30 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
+	function pesquisarUser(){
+		var nome = $('#nameBusca').val();
+		
+		if (nome != null && nome.trim() != ''){
+			
+			$.ajax({
+	            method: "GET",
+	            url: "buscarPorNome",
+	            data: "name=" + nome,
+	            success: function (response) {
+	            	$('#tabelaresultados > tbody > tr').remove();
+	            	
+	            	for (var i = 0; i < response.length; i++){
+						$('#tabelaresultados > tbody').append('<tr><td>'+response[i].id+'</td></tr>');
+	            	}
+	            }
+	        }).fail(function (xhr, status, errorThrow) {
+	            alert("Erro ao buscar usuário: " + xhr.responseText);
+	        });
+	}
+	
+
+
+
 	function salvarUsuario(){
 		
 		var id = $("#id").val();
