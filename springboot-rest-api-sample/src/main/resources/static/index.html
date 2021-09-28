@@ -48,7 +48,7 @@
             <label for="nameBusca" class="col-form-label">Informe o nome:</label>
             <input type="text" class="form-control" id="nameBusca">
           </div>
-          <button type="button" class="btn btn-success" onclick="pesquisarUser();">Buscar</button>
+          <button type="button" class="btn btn-success" onclick="pesquisarUser()">Buscar</button>
         </form>
 					<table class="table" id="tabelaresultados">
 						<thead>
@@ -89,15 +89,37 @@
 	            	$('#tabelaresultados > tbody > tr').remove();
 	            	
 	            	for (var i = 0; i < response.length; i++){
-						$('#tabelaresultados > tbody').append('<tr><td>'+response[i].id+'</td></tr>');
+						$('#tabelaresultados > tbody').append('<tr><td>'+response[i].id+'</td><td>'+response[i].nome+'</td><td><button type="button" onclick="colocarEmEdicao('+response[i].id+')" class="btn btn-primary">Ver</button></td></tr>');
 	            	}
 	            }
 	        }).fail(function (xhr, status, errorThrow) {
 	            alert("Erro ao buscar usuário: " + xhr.responseText);
 	        });
+	
+		}
+	}
+
+	function colocarEmEdicao(id){
+		
+		
+		$.ajax({
+            method: "GET",
+            url: "buscaruserid",
+            data: "iduser=" + id,
+            success: function (response) {
+            	$("#id").val(response.id);
+        		$("#nome").val(response.nome);
+        		$("#idade").val(response.idade);
+        		
+        		$('#modalPesquisarUser').modal('hide');
+            }
+        }).fail(function (xhr, status, errorThrow) {
+            alert("Erro ao buscar usuário por id: " + xhr.responseText);
+        });
+
 	}
 	
-
+	
 
 
 	function salvarUsuario(){
