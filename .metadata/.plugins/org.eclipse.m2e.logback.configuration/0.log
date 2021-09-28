@@ -1344,3 +1344,16 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2021-09-28 10:41:19,164 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
 2021-09-28 10:48:55,428 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-09-28 10:48:55,429 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-28 10:48:55,433 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2021-09-28 10:54:31,257 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-28 10:54:31,258 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-28 10:54:31,260 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2021-09-28 10:56:15,993 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-28 10:56:15,993 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-28 10:56:15,995 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2021-09-28 11:25:31,517 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-28 11:25:31,517 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-28 11:25:31,519 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
+2021-09-28 11:27:35,203 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-28 11:27:35,203 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-09-28 11:27:35,206 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Not copying test resources
